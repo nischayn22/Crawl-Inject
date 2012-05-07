@@ -1,0 +1,43 @@
+
+= Crawler for CRAWL-INJECT =
+This piece of software was developed by
+Akanksha Sharma
+Newton Singh Luthra
+Nischay Nahata
+
+The contributors hold the copyright to this work, and it is licensed under the
+terms of the GNU General Public License, version 2 or later (see
+http://www.fsf.org/licensing/licenses/gpl.html). Derivative works and later
+versions of the code must be free software licensed under the same or a
+compatible license. This includes "extensions" that use MediaWiki functions or
+variables; see http://www.gnu.org/licenses/gpl-faq.html#GPLAndPlugins for
+details.
+
+
+==System Requirements==
+Python 2.7 or higher
+Following libraries are needed to be present
+ httplib
+ sys
+ re
+ urllib2
+ urlparse
+ string
+ urllib
+Note for Windows users: add the python path to your system variables
+====Variable Declarations===
+address in crawler2.py should refer to the website address
+subaddress should refer to the sub-address if any used
+
+Example:
+address='www.facebook.com'
+subaddress = '/users'
+
+======Using the Executable=====
+Run the crawler2.py using the the command line
+"Usage <executable> <sublink>"
+For example crawler.py /index.html
+
+
+Any Issues?
+All issues should be notified at https://github.com/nischayn22/Crawl-Inject/issues
